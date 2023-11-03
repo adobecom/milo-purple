@@ -14,7 +14,7 @@
       "environments": [ "edit" ],
       "isPalette": true,
       "paletteRect": "top: auto; bottom: 25px; left: 25px; height: 388px; width: 360px;",
-      "url": "/tools/library",
+      "url": "https://milo.adobe.com/tools/library",
       "includePaths": [ "**.docx**" ]
     },
     {
@@ -59,7 +59,7 @@
       "id": "sendtocaas",
       "environments": ["dev", "preview", "live", "prod"],
       "event": "send-to-caas",
-      "excludePaths": ["/tools/caas**", "/tools/ost**", "*.json"]
+      "excludePaths": ["https://milo.adobe.com/tools/caas**", "/tools/ost**", "*.json"]
     },
     {
       "containerId": "tools",
@@ -123,7 +123,7 @@
       "id": "sendtocaas",
       "environments": ["live", "prod"],
       "event": "send-to-caas",
-      "excludePaths": ["/tools/caas**", "/tools/ost**", "*.json"]
+      "excludePaths": ["https://milo.adobe.com/tools/caas**", "/tools/ost**", "*.json"]
     },
     {
       "containerId": "tools",
